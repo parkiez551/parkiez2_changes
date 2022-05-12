@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/first">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/details">
+
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:maxLines="4"
+
+            android:text="A Safe and Covered parking space having security personnel and guarded entry/exit gates. 20 parking slots With wide structure for easy parking. 3 of 20 parking slots are for handicapped.A Safe and Covered parking space having security personnel and guarded entry/exit gates. 20 parking slots With wide structure for easy parking. 3 of 20 parking slots are for handicappedA Safe and Covered parking space having security personnel and guarded entry/exit gates. 20 parking slots With wide structure for easy parking. 3 of 20 parking slots are for handicapped.A Safe and Covered parking space having security personnel and guarded entry/exit gates..A Safe and Covered parking space having security personnel and guarded entry/exit gates.A Safe and Covered parking space having security personnel andA Safe and Covered parking space having security personnel andA Safe and Covered parking space having security personnel andA Safe and Covered parking space having security personnel andA Safe and Covered parking space having security personnel andA Safe and Covered parking space having security personnel andA Safe and Covered parking space having security personnel andA Safe and Covered parking space having security personnel and"
+            android:textAlignment="textStart"
+            android:textColor="#282828"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btShowmore"
+                android:layout_width="wrap_content"
+
+                android:text="Readmore"
+                android:textAllCaps="false"
+                android:textColor="#03AC13"
+                android:background="@android:color/transparent"
+                android:layout_height="@dimen/_25sdp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:gravity="center"
+            android:src="@drawable/car" />
+
+
+
+        <!--   <Button
+                android:id="@+id/bookParking"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="Book now"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/book_now_curve"/> -->
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:gravity="center"
+            android:src="@drawable/car" />
+
+    <!--    <Button
+                android:id="@+id/bookParking"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+
+
+                android:layout_alignParentBottom="true"
+
+                android:layout_margin="10dp"
+                android:background="@drawable/book_now_curve"
+                android:text="Book now"
+                android:textAllCaps="false"
+
+                android:textColor="@color/white"
+                android:textStyle="bold" />  -->
+
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin= "5dp"
+        android:padding="5dp">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/bookParking"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="Book now"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/book_now_curve"/>
+
+
+
+</LinearLayout> -->
+
+
+
+
+</ScrollView>
+</RelativeLayout>

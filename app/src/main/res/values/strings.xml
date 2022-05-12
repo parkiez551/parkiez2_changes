@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Parkiez</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_payment_selection">PaymentSelection</string>
+    <string name="title_activity_ccavenue_gateway">CCAvenueGateway</string>
+    <string name="title_activity_payment_complete">PaymentComplete</string>
+    <string name="emptymobilenumber">Mobile number cannot be empty or less than 10 digits.</string>
+    <string name="emptyfirstname">First name cannot be empty.</string>
+    <string name="emptylastname">Last name cannot be empty.</string>
+    <string name="emptyemail">Email address required.</string>
+    <string name="hrs_prompt">Parking Hrs</string>
+
+    <string name="about_us_string">Parkiez is aimed to provide sustainable solutions related to parking problems in a smart way which includes terms Parking Management, Mobile Application, EV Charging Grid, Traffic Vision Management.</string>
+    <string name='contact_us_string'>You have any suggestions/complaints then email at <font color='#69BD45'>help@parkiez.com</font></string>
+
+    <string-array name="status_arrays">
+        <item>Cancelled</item>
+        <item>Not Completed</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string-array name="status_arrays1">
+        <item>Booked</item>
+        <item>Cancel</item>
+        <item>OnGoing</item>
+    </string-array>
+</resources>

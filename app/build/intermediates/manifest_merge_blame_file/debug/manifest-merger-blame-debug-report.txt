@@ -1,0 +1,340 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.parkiezmobility.parkiez"
+4    android:versionCode="6"
+5    android:versionName="3.2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:6:5-8:35
+12        android:name="android.hardware.location"
+12-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:7:9-49
+13        android:required="true" />
+13-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:8:9-32
+14    <uses-feature
+14-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:9:5-11:36
+15        android:name="android.hardware.location.gps"
+15-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:10:9-53
+16        android:required="false" />
+16-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:11:9-33
+17
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:13:5-79
+18-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:14:5-81
+19-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:15:5-67
+20-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:15:22-64
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:16:5-76
+21-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:16:22-73
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:17:5-79
+22-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:17:22-76
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:18:5-66
+23-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:18:22-63
+24    <uses-permission android:name="android.permission.CALL_PHONE" />
+24-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:19:5-69
+24-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:19:22-66
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+28        android:required="true" />
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+29
+30    <application
+30-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:24:5-120:19
+31        android:name="androidx.multidex.MultiDexApplication"
+31-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:25:9-61
+32        android:allowBackup="true"
+32-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:26:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.5.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\cee736d2e38554b625c1833356f21557\core-1.5.0\AndroidManifest.xml:24:18-86
+34        android:configChanges="orientation|keyboardHidden|screenSize"
+34-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:27:9-70
+35        android:debuggable="true"
+35-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:28:9-34
+36        android:icon="@mipmap/ic_icon"
+36-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:29:9-39
+37        android:label="@string/app_name"
+37-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:30:9-41
+38        android:networkSecurityConfig="@xml/network_security_config"
+38-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:31:9-69
+39        android:screenOrientation="portrait"
+39-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:32:9-45
+40        android:supportsRtl="true"
+40-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:33:9-35
+41        android:theme="@style/AppTheme"
+41-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:34:9-40
+42        android:usesCleartextTraffic="true" >
+42-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:35:9-44
+43        <activity android:name="com.parkiezmobility.parkiez.Activities.BaseActivity" />
+43-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:37:9-61
+43-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:37:19-58
+44        <activity
+44-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:38:9-50:20
+45            android:name="com.parkiezmobility.parkiez.MainActivity"
+45-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:39:13-41
+46            android:screenOrientation="portrait"
+46-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:40:13-49
+47            android:theme="@style/AppTheme.NoActionBar"
+47-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:41:13-56
+48            android:windowSoftInputMode="stateHidden" >
+48-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:42:13-54
+49
+50            <!-- <intent-filter> -->
+51            <!-- <action android:name="android.intent.action.MAIN" /> -->
+52
+53
+54            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+55            <!-- </intent-filter> -->
+56        </activity>
+57        <!--
+58             The API key for Google Maps-based APIs is defined as a string resource.
+59             (See the file "res/values/google_maps_api.xml").
+60             Note that the API key is linked to the encryption key used to sign the APK.
+61             You need a different API key for each encryption key, including the release key that is used to
+62             sign the APK for publishing.
+63             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+64        -->
+65        <activity
+65-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:59:9-65:76
+66            android:name="com.parkiezmobility.parkiez.Activities.Login"
+66-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:60:13-45
+67            android:label="@string/title_activity_login"
+67-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:61:13-57
+68            android:noHistory="true"
+68-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:62:13-37
+69            android:screenOrientation="portrait"
+69-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:63:13-49
+70            android:theme="@style/AppTheme.NoActionBar"
+70-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:64:13-56
+71            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+71-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:65:13-73
+72        <activity
+72-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:66:9-72:57
+73            android:name="com.parkiezmobility.parkiez.Activities.Registration"
+73-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:67:13-52
+74            android:label="@string/title_activity_registration"
+74-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:68:13-64
+75            android:noHistory="true"
+75-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:69:13-37
+76            android:screenOrientation="portrait"
+76-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:70:13-49
+77            android:theme="@style/AppTheme.NoActionBar"
+77-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:71:13-56
+78            android:windowSoftInputMode="stateHidden" />
+78-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:72:13-54
+79        <activity
+79-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:73:9-79:57
+80            android:name="com.parkiezmobility.parkiez.Activities.PaymentSelection"
+80-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:74:13-56
+81            android:label="@string/title_activity_payment_selection"
+81-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:75:13-69
+82            android:noHistory="true"
+82-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:76:13-37
+83            android:screenOrientation="portrait"
+83-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:77:13-49
+84            android:theme="@style/AppTheme.NoActionBar"
+84-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:78:13-56
+85            android:windowSoftInputMode="stateHidden" />
+85-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:79:13-54
+86        <activity
+86-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:80:9-86:57
+87            android:name="com.parkiezmobility.parkiez.Activities.CCAvenueGateway"
+87-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:81:13-55
+88            android:label="@string/title_activity_ccavenue_gateway"
+88-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:82:13-68
+89            android:noHistory="true"
+89-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:83:13-37
+90            android:screenOrientation="portrait"
+90-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:84:13-49
+91            android:theme="@style/AppTheme.NoActionBar"
+91-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:85:13-56
+92            android:windowSoftInputMode="stateHidden" />
+92-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:86:13-54
+93        <activity
+93-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:87:9-93:57
+94            android:name="com.parkiezmobility.parkiez.Activities.PaymentComplete"
+94-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:88:13-55
+95            android:label="@string/title_activity_payment_complete"
+95-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:89:13-68
+96            android:noHistory="true"
+96-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:90:13-37
+97            android:screenOrientation="portrait"
+97-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:91:13-49
+98            android:theme="@style/AppTheme.NoActionBar"
+98-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:92:13-56
+99            android:windowSoftInputMode="stateHidden" />
+99-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:93:13-54
+100        <activity
+100-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:94:9-103:20
+101            android:name="com.parkiezmobility.parkiez.Activities.SplashActivity"
+101-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:95:13-54
+102            android:screenOrientation="portrait"
+102-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:96:13-49
+103            android:theme="@style/AppTheme.NoActionBar" >
+103-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:97:13-56
+104            <intent-filter>
+104-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:98:13-102:29
+105                <action android:name="android.intent.action.MAIN" />
+105-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:99:17-69
+105-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:99:25-66
+106
+107                <category android:name="android.intent.category.LAUNCHER" />
+107-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:101:17-77
+107-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:101:27-74
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:104:9-108:57
+111            android:name="com.parkiezmobility.parkiez.Activities.OTPVerification"
+111-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:105:13-55
+112            android:screenOrientation="portrait"
+112-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:106:13-49
+113            android:theme="@style/AppTheme.NoActionBar"
+113-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:107:13-56
+114            android:windowSoftInputMode="stateHidden" />
+114-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:108:13-54
+115
+116        <meta-data
+116-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:110:9-112:55
+117            android:name="com.google.android.geo.API_KEY"
+117-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:111:13-58
+118            android:value="@string/google_maps_key" />
+118-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:112:13-52
+119        <meta-data
+119-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:113:9-115:69
+120            android:name="com.google.android.gms.version"
+120-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:114:13-58
+121            android:value="@integer/google_play_services_version" />
+121-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:115:13-66
+122
+123        <uses-library
+123-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:117:9-119:40
+124            android:name="org.apache.http.legacy"
+124-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:118:13-50
+125            android:required="false" />
+125-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:119:13-37
+126
+127        <activity
+127-->[com.google.android.libraries.places:places:2.5.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\b6ee8f8a7119c93017fc8c3311af57d7\places-2.5.0\AndroidManifest.xml:14:9-20:20
+128            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+128-->[com.google.android.libraries.places:places:2.5.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\b6ee8f8a7119c93017fc8c3311af57d7\places-2.5.0\AndroidManifest.xml:15:13-91
+129            android:exported="false"
+129-->[com.google.android.libraries.places:places:2.5.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\b6ee8f8a7119c93017fc8c3311af57d7\places-2.5.0\AndroidManifest.xml:16:13-37
+130            android:label="@string/places_autocomplete_label"
+130-->[com.google.android.libraries.places:places:2.5.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\b6ee8f8a7119c93017fc8c3311af57d7\places-2.5.0\AndroidManifest.xml:17:13-62
+131            android:theme="@style/PlacesAutocompleteOverlay"
+131-->[com.google.android.libraries.places:places:2.5.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\b6ee8f8a7119c93017fc8c3311af57d7\places-2.5.0\AndroidManifest.xml:18:13-61
+132            android:windowSoftInputMode="adjustResize" >
+132-->[com.google.android.libraries.places:places:2.5.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\b6ee8f8a7119c93017fc8c3311af57d7\places-2.5.0\AndroidManifest.xml:19:13-55
+133        </activity>
+134
+135        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+135-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:12:9-16:20
+135-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:12:19-63
+136            <intent-filter>
+136-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:13:13-15:29
+137                <action android:name="rzp.device_token.share" />
+137-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:14:17-65
+137-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:14:25-62
+138            </intent-filter>
+139        </receiver>
+140
+141        <activity
+141-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:18:9-29:20
+142            android:name="com.razorpay.CheckoutActivity"
+142-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:19:13-57
+143            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+143-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:20:13-83
+144            android:theme="@style/CheckoutTheme" >
+144-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:21:13-49
+145            <intent-filter>
+145-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:22:13-28:29
+146                <action android:name="android.intent.action.MAIN" />
+146-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:99:17-69
+146-->C:\Users\conne\AndroidStudioProjects\Parkiez2\app\src\main\AndroidManifest.xml:99:25-66
+147
+148                <data
+148-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:25:17-27:47
+149                    android:host="rzp.io"
+149-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:26:21-42
+150                    android:scheme="io.rzp" />
+150-->[com.razorpay:checkout:1.6.8] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\098bf95e9b4aec67aa461dd87517748a\checkout-1.6.8\AndroidManifest.xml:27:21-44
+151            </intent-filter>
+152        </activity>
+153        <activity
+153-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\7c3357205c0d6443051a58acd987f14a\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+154            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+154-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\7c3357205c0d6443051a58acd987f14a\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+155            android:excludeFromRecents="true"
+155-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\7c3357205c0d6443051a58acd987f14a\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\7c3357205c0d6443051a58acd987f14a\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\7c3357205c0d6443051a58acd987f14a\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+158        <!--
+159            Service handling Google Sign-In user revocation. For apps that do not integrate with
+160            Google Sign-In, this service will never be started.
+161        -->
+162        <service
+162-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\7c3357205c0d6443051a58acd987f14a\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+163            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+163-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\7c3357205c0d6443051a58acd987f14a\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+164            android:exported="true"
+164-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\7c3357205c0d6443051a58acd987f14a\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+165            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+165-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\7c3357205c0d6443051a58acd987f14a\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+166
+167        <activity
+167-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\9e611fb7f95a840575f5b86c431869fb\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+168            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+168-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\9e611fb7f95a840575f5b86c431869fb\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+169            android:exported="false"
+169-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\9e611fb7f95a840575f5b86c431869fb\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+170            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+170-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\9e611fb7f95a840575f5b86c431869fb\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+171
+172        <service
+172-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\94fa6dd6c77dca76f6e580d95724eaf9\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+173            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+173-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\94fa6dd6c77dca76f6e580d95724eaf9\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+174            android:exported="false" >
+174-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\94fa6dd6c77dca76f6e580d95724eaf9\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+175            <meta-data
+175-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\94fa6dd6c77dca76f6e580d95724eaf9\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+176                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+176-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\94fa6dd6c77dca76f6e580d95724eaf9\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+177                android:value="cct" />
+177-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\94fa6dd6c77dca76f6e580d95724eaf9\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+178        </service>
+179        <service
+179-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\96bb853c928bf52e227dabc37e9e3b40\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+180            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+180-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\96bb853c928bf52e227dabc37e9e3b40\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+181            android:exported="false"
+181-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\96bb853c928bf52e227dabc37e9e3b40\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+182            android:permission="android.permission.BIND_JOB_SERVICE" >
+182-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\96bb853c928bf52e227dabc37e9e3b40\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+183        </service>
+184
+185        <receiver
+185-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\96bb853c928bf52e227dabc37e9e3b40\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+186            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+186-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\96bb853c928bf52e227dabc37e9e3b40\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+187            android:exported="false" />
+187-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\conne\.gradle\caches\transforms-2\files-2.1\96bb853c928bf52e227dabc37e9e3b40\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+188    </application>
+189
+190</manifest>

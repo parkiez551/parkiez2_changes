@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_parkings"
+            android:icon="@mipmap/ic_parking_new"
+            android:title="Parkings" />
+        <item
+            android:id="@+id/nav_booked"
+            android:icon="@mipmap/ic_garage"
+            android:title="Booked Parkings" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@mipmap/ic_history_new"
+            android:title="Booking History" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_profile_new"
+            android:title="Profile" />
+    </group>
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_rent"
+            android:icon="@mipmap/ic_rent"
+            android:title="Rent Your Space" />
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@mipmap/ic_about_us"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@mipmap/ic_share_new"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/ic_login_new"
+            android:title="Login" />
+    </group>
+
+</menu>

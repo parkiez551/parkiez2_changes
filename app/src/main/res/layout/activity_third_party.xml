@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Third_party">
+
+    <Button
+        android:id="@+id/parking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parking"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <Button
+        android:id="@+id/ev_charging_station"
+
+        android:layout_marginLeft="@dimen/_100sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EV charging station" />
+
+    <Button
+        android:id="@+id/socity"
+        android:layout_marginLeft="@dimen/_300sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My society" />
+
+   <!-- <Button
+        android:id="@+id/logout"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out" /> -->
+</RelativeLayout>

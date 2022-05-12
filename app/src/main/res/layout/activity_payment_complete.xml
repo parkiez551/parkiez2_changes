@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_payment_complete"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.parkiezmobility.parkiez.Activities.PaymentComplete">
+
+    <RelativeLayout
+        android:id="@+id/payHide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:text="Payment Successful !"
+            android:textColor="#4fc12d"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textp1"
+            android:layout_margin="10dp"
+            android:text="Your payment has been processed! Details of transcation are includeing below" />
+
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textp2"
+            android:background="@color/iron">
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Amount Paid"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_toLeftOf="@+id/payAmt"
+                android:text="Total " />
+
+            <TextView
+                android:id="@+id/payAmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:text="Rupies"
+                android:textColor="#4fc12d" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:layout_margin="10dp"
+            android:text="Name          : " />
+
+        <TextView
+            android:id="@+id/payCustName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/payTrans"
+            android:layout_alignStart="@+id/payTrans"
+            android:layout_below="@+id/layout1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Customer Name" />
+
+        <TextView
+            android:id="@+id/textp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textp3"
+            android:layout_margin="10dp"
+            android:text="Trans ID      : " />
+
+        <TextView
+            android:id="@+id/payTrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textp3"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/textp4"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/textp6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textp4"
+            android:layout_margin="10dp"
+            android:text="Transfer to : " />
+
+        <TextView
+            android:id="@+id/payShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textp4"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/textp4"
+            android:text="Shop Name" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/payShop"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/btncolor"
+            android:text="back"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/payFail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Transcation Failed"
+            android:textColor="#ee4e22"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tryagin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textp5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/btncolor"
+            android:text="Re-Try"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/pretext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:text="Previous transication is not updated, please try again and update your record"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/retry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pretext"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:background="@color/btncolor"
+            android:text="Please retry again"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

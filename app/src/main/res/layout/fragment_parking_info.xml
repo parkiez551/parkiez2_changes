@@ -1,0 +1,282 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.parkiezmobility.parkiez.Fragments.ParkingInfo"
+    android:id="@+id/parking_info" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/parking_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:text="Parking Name"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+            <!--    <TextView
+                    android:id="@+id/parking_detail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Car and Bike Park"
+                    android:textSize="15dp"
+                    android:textColor="#000000" /> -->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="5dp" >
+
+                <RatingBar
+                    android:id="@+id/review_stars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3"
+                    android:numStars="5"
+                    android:theme="@style/RatingBar"/>
+
+                <TextView
+                    android:id="@+id/review_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="(8824 Reviews)"
+                    android:textSize="15dp"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+
+            <!--        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Available Car Parking Slots"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:id="@+id/car_count"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text=" 5 "
+                            android:textSize="15dp"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/carPrice"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/gray_curve"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_weight="1"
+                            android:text="Rs. 9.99/hr"
+                            android:textSize="15dp"
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Available Bike Parking Slots"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:id="@+id/bike_count"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text=" 8 "
+                            android:textSize="15dp"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/bikePrice"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/gray_curve"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_weight="1"
+                            android:text="Rs. 5.99/hr"
+                            android:textSize="15dp"
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:padding="20dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/black_curve"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:text="Book Car Parking for \n3Hrs"/>
+
+                        <TextView
+                            android:id="@+id/three_hrs_car_price"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:padding="20dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/gray_curve"
+                            android:gravity="center"
+                            android:textColor="@color/gray_type"
+                            android:text="Total Price \n Rs. 29.97"/>
+
+                    </LinearLayout> -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F0F0"
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                android:padding="2dp">
+
+
+
+                    <TextView
+                        android:id="@+id/parking_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="10 mins"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                    <!-->android:drawableLeft="@mipmap/ic_car"/> -->
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_30sdp"
+
+                        android:background="#D0D0D0" />
+
+
+                <TextView
+                    android:id="@+id/car_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="RS.9.99/hr"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+
+                    android:textStyle="bold" />
+                <!-->android:drawableLeft="@mipmap/ic_car"/> -->
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:background="#D0D0D0" />
+
+                <TextView
+                    android:id="@+id/bike_price"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:gravity="center"
+                    android:text="RS.5.99/hr"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <!-->android:drawableLeft="@mipmap/ic_car"/> -->
+
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <include layout="@layout/first" />
+
+                <include layout="@layout/second" />
+
+                <include layout="@layout/third" />
+
+            </FrameLayout>
+
+         <!--   <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:menu="@menu/navigation" /> -->
+
+            <Button
+                android:id="@+id/bookParking"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/book_now"
+                android:layout_margin="10dp"
+                android:layout_gravity="bottom"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
